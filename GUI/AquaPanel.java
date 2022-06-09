@@ -210,7 +210,7 @@ public class AquaPanel extends JPanel implements PropertyChangeListener {
      * @param y    the y
      */
     public void addLaminariaToPlants(int size, int x, int y) {
-        AddSeaCreature creature = new AddSeaCreature("Plant", "SeaCreatures.Laminaria", new int[]{size, x, y});
+        AddSeaCreature creature = new AddSeaCreature("Plant", "Laminaria", new int[]{size, x, y});
         SeaCreature l = creature.getSeaCreature();
         plants.add((Immobile) l);
         countPlants++;
@@ -224,7 +224,7 @@ public class AquaPanel extends JPanel implements PropertyChangeListener {
      * @param y    the y
      */
     public void addZosteraToPlants(int size, int x, int y) {
-        AddSeaCreature creature = new AddSeaCreature("Plant", "SeaCreatures.Zostera", new int[]{size, x, y});
+        AddSeaCreature creature = new AddSeaCreature("Plant", "Zostera", new int[]{size, x, y});
         SeaCreature z = creature.getSeaCreature();
         plants.add((Immobile) z);
         countPlants++;
