@@ -60,15 +60,15 @@ public class JPanelDecorator extends JPanel {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Color newColor = JColorChooser.showDialog(aqua, "Change Animal Color", Color.WHITE);
-                if (newColor != null)
+                if (newColor != null) {
                     Marine = new MarineAnimalDecorator(animal);
-                MarineAnimalDecorator.setCol(newColor);
-                Marine.PaintFish();
+                    MarineAnimalDecorator.setCol(newColor);
+                    Marine.PaintFish();
 
-                JComponent comp = (JComponent) e.getSource();
-                Window win = SwingUtilities.getWindowAncestor(comp);
-                win.dispose();
-
+                    JComponent comp = (JComponent) e.getSource();
+                    Window win = SwingUtilities.getWindowAncestor(comp);
+                    win.dispose();
+                }
             }
         });
 
