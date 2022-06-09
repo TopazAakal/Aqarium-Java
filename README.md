@@ -2,8 +2,9 @@
 
 ### Authors: 
 
-* Afik Danan - afikdanan@gmail.com
 * Topaz Aakal – topazaakal5@gmail.com
+* Afik Danan - afikdanan@gmail.com
+
 
 This is our final project in Advance oop course at Sami Shamoon Engineering College. 
 At this project we created aquarium with the ability to add fish and jellyfish and some sea plant at the buttom of the aquarium.
